@@ -1,0 +1,18 @@
+p { 
+    color:royalblue;
+    font-size: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.opening {
+    font-size: 15px;
+    color: brown;
+}
+
+
+
+section {
+    display: flex;
+    flex-direction: column;
+
+}
