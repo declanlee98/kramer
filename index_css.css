@@ -1,7 +1,43 @@
-p { 
-    color:royalblue;
-    font-size: 10px;
+.title { 
+    color:navy;
+    text-align: center;
+    font-size: 50px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.intro {
+    color:navy;
+    text-align: center;
+    font-size: 35px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    background-image: url("images/monks.jpeg");
+    opacity: 0.1;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.center {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 0 auto;
+    text-align: center;
+}
+
+.child{
+    width: 600px;
+    height: 450px;
+    max-width: 100%;
+    max-height: 100%;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+img {
+    border: 3px solid red;
 }
 
 .opening {
@@ -9,7 +45,11 @@ p {
     color: brown;
 }
 
-
+* {
+    padding: 10px;
+    margin: 10px;
+    box-sizing: border-box;
+}
 
 section {
     display: flex;
